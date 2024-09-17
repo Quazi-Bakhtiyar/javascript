@@ -43,3 +43,28 @@ console.log(typeof abc)
 
 // datatype of array is object nd for function datatype is function and for obeject is object 
 // datatype of Null is Object meand null is an object
+
+// +++++++++++++++++++++++++++ Memory ++++++++++++++++++++++++++++
+
+//  stack -> primitive datatypes
+//  heap  -> non primitive datatypes 
+
+let myYoutubeName = "quazi bakhtiyar ali"
+let anotherName = myYoutubeName
+anotherName = "chai aur code"
+
+console.log(myYoutubeName)
+console.log(anotherName)
+
+let obj = {
+    name:"quazi",
+    age:19
+}
+
+let obj2 = obj;
+
+obj2.name="aman"
+
+console.log(obj.name)
+// non primitive data type stores values in heap and point on the memory while primitive datatypes just give the copy of the data to another variable
+
