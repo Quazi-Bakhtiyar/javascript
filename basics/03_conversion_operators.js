@@ -23,5 +23,24 @@ let isLoggedInBoolean = Boolean(isLoggedIn)
 
 let someNum = 11
 let stringNumber = String(someNum)
-console.log(typeof stringNumber)
-console.log(stringNumber)
+// console.log(typeof stringNumber)
+// console.log(stringNumber)
+
+// ************************** Operations in javascript *********************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue)
+
+// console.log(1+"2")
+// console.log("1"+2)
+// console.log("1"+2+2)
+// console.log(1+2+"2")
+
+// console.log(+true)  // gives value one 1
+// console.log(+"")
+
+gameCounter = 200
+gameCounter++
+++gameCounter
+console.log(gameCounter)
