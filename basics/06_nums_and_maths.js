@@ -26,3 +26,4 @@ const max = 50
 // to get the value of your desire or between any of the two numbers 
 // Math.random()*(max-min) + min use this formula
 console.log((Math.random() * (max - min)) + min)
+
