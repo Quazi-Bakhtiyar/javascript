@@ -41,5 +41,15 @@ const Users = [
         value:true
     }
 ]
-console.log(Users[1].id)
+//console.log(Users[1].id)
 
+// Destructing the values in objects
+
+const course = {
+    name: "Javascript in Hindi",
+    price: 999,
+    courseInstructor: "Hitesh Choudhary"
+}
+
+const{courseInstructor: tutor} = course
+console.log(tutor)
