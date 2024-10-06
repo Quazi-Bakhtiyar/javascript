@@ -48,7 +48,7 @@ console.log(returnObject())
 // we can write function as well as arrow function in forEach method or array also like
 myArr = [1,2,3,4,5]
 
-myArr.array.forEach((element) => {
+myArr.forEach((element) => {
     // syntax
 });
 
