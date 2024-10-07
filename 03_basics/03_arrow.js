@@ -58,3 +58,4 @@ myArr.forEach(function(){
 
 // we can use arrow function in map method as well as in filter method. it is used to
 // create a new array with the results of applying a provided function on every element in this array.
+
