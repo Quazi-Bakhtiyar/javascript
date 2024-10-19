@@ -33,3 +33,16 @@ const emptyObject = {}
 if(Object.keys(emptyObject).length===0){
     console.log("obejct is empty")
 }
+
+// Nullish coalescing Operator (??) : null undefined
+
+let val1
+
+// val1 = 5 ?? null
+// val1 = null ?? 20
+// val1 = undefined ?? 30
+val1 = null ?? 12 ?? 23 // assign the first value after null or undefined
+
+
+console.log(val1)
+
