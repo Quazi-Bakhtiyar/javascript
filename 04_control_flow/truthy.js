@@ -46,3 +46,8 @@ val1 = null ?? 12 ?? 23 // assign the first value after null or undefined
 
 console.log(val1)
 
+// Ternary Operator in javascript
+
+// condition ? true : false
+let a = 0
+a>=0 ? console.log("good"): console.log("bad")
