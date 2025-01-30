@@ -1,0 +1,15 @@
+body{
+    background-color: #212121;
+    color:white;
+    font-size: 23px;
+    text-align: center;
+}
+
+#restart{
+    background-color: red;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
