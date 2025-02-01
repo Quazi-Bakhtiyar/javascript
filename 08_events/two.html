@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body style="background-color: #212121; color:white;">
+    <h1>Async</h1>
+    <button id="stop">Button</button>
+</body>
+<script>
+document.querySelector("#stop").addEventListener("click",()=>{
+    clearTimeout(changeME)
+})
+let changeText = function(heading){
+    document.querySelector("h1").innerHTML = "best js series"
+}
+let hitesh = function(){
+    console.log("Quazi Bakhtiyar Ali")
+}
+const changeME = setTimeout(changeText,2000)
+
+</script>
+</html>
