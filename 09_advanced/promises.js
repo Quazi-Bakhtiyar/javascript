@@ -63,4 +63,42 @@ const promiseFive = new Promise(function(resolve,reject){
             reject("js went wrong!")
         }
   },2000)
-}).then()
+})
+
+async function consumePromiseFive(){
+    try{
+        const response = await promiseFive
+        console.log(response)
+    }
+    catch(error){
+        console.log(error)
+    }
+    
+}
+
+consumePromiseFive()
+
+async function getAllUser(){
+    try{
+        const response = await fetch("https://api.github.com/users/quazi-bakhtiyar")
+        const data = await response.json()
+        //console.log(data)
+    }
+    catch(error){
+        console.log("error: ",error)
+    }
+}
+getAllUser()
+
+// using .then and .catch
+
+fetch("https://api.github.com/users/quazi-bakhtiyar")
+.then((response)=>{
+    return response.json()
+})
+.then((data)=>{
+    console.log(data)
+})
+.catch((error)=>{
+    console.log(error)
+})
