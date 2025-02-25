@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter App</title>
+</head>
+<body>
+
+    <h2>12</h2>
+    <button id = "increase">Increase</button>
+    <button id="decrease">Decrease</button>
+    
+
+    <script>
+        document.querySelector("#increase").onclick = function(){
+            let value = document.querySelector("h2").textContent
+            value = parseInt(value)+1
+            document.querySelector("h2").textContent = value
+        }
+
+        document.querySelector("#decrease").onclick = function(){
+            let value = document.querySelector("h2").textContent
+            value = parseInt(value)-1
+            document.querySelector("h2").textContent = value
+        }
+    </script>
+</body>
+</html>
